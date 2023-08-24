@@ -2,8 +2,8 @@ import React, {forwardRef} from 'react'
 import ProjectItem from './ProjectItem'
 import bullpenImg from '../assets/bullpen.png'
 import cloverpopImg from '../assets/cloverpop.png'
-import easymergeImg from '../assets/easymerge.jpg'
 import platformaticaImg from '../assets/platformatica.png'
+import loanSnapImg from '../assets/loanSnap.png'
 
 const Projects = forwardRef((props, ref) => {
   return (
@@ -14,7 +14,7 @@ const Projects = forwardRef((props, ref) => {
         <ProjectItem img={cloverpopImg} title='Cloverpop App' href='https://www.cloverpop.com/'/>
         <ProjectItem img={bullpenImg} title='BullpenRE App' href='https://www.bullpenre.com/'/>
         <ProjectItem img={platformaticaImg} title='Platformatica App' href='https://platformatica.com/apps/'/>
-        <ProjectItem img={easymergeImg} title='Easymerge App' href='https://easymerge-staging.herokuapp.com/'/>
+        <ProjectItem img={loanSnapImg} title='LoanSnap App' href='https://www.goloansnap.com/'/>
       </div>
     </div>
   )
