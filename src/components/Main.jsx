@@ -7,7 +7,7 @@ const Main = forwardRef((props, ref) => {
   return (
     <div id='main' ref={ref}>
         <img className='w-screen h-screen object-cover object-left' src={backgroundImg} alt='/'/>
-        <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
+        <div className='w-screen h-screen absolute top-0 left-0 bg-white/50'>
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
                 <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Olga Goncharenko</h1>
                 <h2 className='flex sm:text-3xl text-2xl pt-4'>
