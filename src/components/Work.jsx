@@ -37,7 +37,7 @@ const data = [
 const Work = forwardRef((props, ref) => {
   return (
     <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' ref={ref}>
-        <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Work</h1>
+        <h1 className='text-4xl font-bold mb-3 text-center text-[#001b5e]'>Work</h1>
         {data.map((item, idx) => (
             <WorkItem
             key={idx}
